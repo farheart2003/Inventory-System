@@ -59,8 +59,8 @@ POST /api/auth/register
 
 j
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Farhat sharif",
+  "email": "farhatsharif04@gmail.com",
   "password": "secret123"
 }
 Add Product:
