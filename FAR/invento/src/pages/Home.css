@@ -1,0 +1,20 @@
+.home-hero {
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.7);
+  padding: 5rem 2rem;
+}
+
+.home-hero h1,
+.home-hero p {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    padding: 3rem 1rem;
+  }
+}
